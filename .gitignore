@@ -14,6 +14,7 @@ public class FootballOutput {
     public static void main(String[] args) throws FileNotFoundException {
        // set variables for files
        // This is Jingxian Huang's comment
+        System.out.println("Jingxian Huang visited this code!!!");
         Scanner inFile = new Scanner(new FileReader("footballdata.txt"));
         //set up program variables
         int ticketBox, boxNum, ticketSideline, sidelineNum, ticketPremium,premiumNum,ticketGeneral,generalNum,totalAmount;
